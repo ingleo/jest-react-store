@@ -17,7 +17,7 @@ describe('<Header />', () => {
     const header = mount(
       <ProviderMock>
         <Header />
-      </ProviderMock>
+      </ProviderMock>,
     );
     expect(header.find('.Header-title').text()).toEqual('Platzi Store');
   });
